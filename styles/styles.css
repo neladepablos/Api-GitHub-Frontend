@@ -1,0 +1,164 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 5px;
+}
+
+a {
+    display: block;
+    text-decoration: underline;
+    color: #000;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: green;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(44, 40, 40, 0.144);
+}
+
+.header .navbar {
+    background-color: rgb(36 41 46);
+}
+
+.header img {
+    max-width: 80px;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: top;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px;
+    background: rgb(225 225 225);
+    color: black;
+    margin: 100px auto;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 2px 5px 20px black;
+    background-image: url("/img/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-input {
+    border-right: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#texto {
+    height: 41px;
+    border-radius: .0000001px;
+}
+
+.search {
+    display: inline-block;
+    padding: .5rem 1rem;
+    background-color: #1192ee;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: inherit;
+    border-radius: .25rem;
+    transition: transform .05s;
+    border: 1px solid var(--color);
+    text-align: center;
+    user-select: none;
+}
+
+.search:hover {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.profile {
+    padding: 0 0 0 30px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.profile #login,
+#name {
+    color: #fff;
+    font-weight: bold;
+}
+
+.profile-photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    border: 4px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo img {
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.repositories {
+    padding-bottom: 10px;
+}
+
+.repositories-info {
+    max-width: 800px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 75vw;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line:last-child {
+    display: none;
+}
+
+.footer {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ----------------------------------------------- */
+
+.repositories-info {
+    max-width: 1000px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 2px 10px 30px black;
+}
